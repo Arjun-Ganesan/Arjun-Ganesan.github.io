@@ -7,4 +7,4 @@ title: Home
 
 I’m a researcher, innovater, and avid learner.
 
-👉 Check out my [Projects](/projects) or read my [Blog](/blog).
+👉 Learn [About me](/about) and my [Projects](/projects).
