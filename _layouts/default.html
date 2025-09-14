@@ -8,6 +8,9 @@
   <!-- Base CSS -->
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/milligram/1.4.1/milligram.min.css">
 
+  <!-- Font Awesome for Social Icons -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+
   <!-- Syntax Highlighting -->
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.9.0/styles/github-dark.min.css" id="highlight-theme">
 
@@ -27,33 +30,39 @@
       width: 250px;
       margin-right: 2rem;
       flex-shrink: 0;
+      text-align: center;
     }
 
-  .sidebar img {
-  border-radius: 15px;   /* adjust for how rounded you want the corners */
-  object-fit: cover;      /* ensures the image fills the box nicely */
-  display: block;
-  margin-bottom: 1rem;
-  width: 100%;           /* keeps it responsive in the sidebar */
-  height: auto;          /* preserves original aspect ratio */
-}
-
-
+    .sidebar img {
+      width: 200px;          /* rectangle width */
+      height: auto;
+      border-radius: 15px;   /* rounded corners */
+      object-fit: cover;
+      margin-bottom: 1rem;
+    }
 
     .sidebar h2 {
-      color: #1e40af; /* Blue for headings */
-      margin-bottom: 0.5rem;
+      color: #1e40af; /* blue headings */
+      margin-bottom: 0.2rem;
     }
 
-    .sidebar a {
-      display: block;
-      margin: 5px 0;
+    .sidebar p {
+      margin-top: 0;
+      font-size: 0.9rem;
+      color: #555;
+    }
+
+    /* Social icons */
+    .social-links a {
+      display: inline-block;
+      margin: 0.3rem;
       color: #1e40af;
-      text-decoration: none;
+      font-size: 1.5rem;
+      transition: color 0.3s;
     }
 
-    .sidebar a:hover {
-      text-decoration: underline;
+    .social-links a:hover {
+      color: #2563eb; /* slightly brighter blue on hover */
     }
 
     /* Main content */
@@ -62,7 +71,7 @@
     }
 
     h1, h2, h3, h4, h5 {
-      color: #1e40af; /* Blue headings */
+      color: #1e40af; /* blue headings */
     }
 
     nav a { margin-right: 15px; }
@@ -108,16 +117,17 @@
     <!-- Profile photo -->
     <img src="profile.jpg" alt="Your Name">
 
-    <h2>Arjun Ganesan</h2>
-    <p>Innovater / Researcher / Student</p>
+    <h2>Your Name</h2>
+    <p>Developer / Researcher / Designer</p>
 
     <span class="dark-toggle" onclick="toggleDarkMode()">🌙 Dark</span>
 
-    <!-- Social Links -->
-    <h3>Connect</h3>
-    <a href="https://github.com/arjun-ganesan" target="_blank">GitHub</a>
-    <a href="https://linkedin.com/in/arjun-ganesan-b53b942ba/" target="_blank">LinkedIn</a>
-    <a href="mailto:arjunganesan.ar">Email</a>
+    <!-- Social Links with Icons -->
+    <div class="social-links">
+      <a href="https://github.com/username" target="_blank" title="GitHub"><i class="fab fa-github"></i></a>
+      <a href="https://linkedin.com/in/username" target="_blank" title="LinkedIn"><i class="fab fa-linkedin"></i></a>
+      <a href="mailto:youremail@example.com" title="Email"><i class="fas fa-envelope"></i></a>
+    </div>
   </div>
 
   <!-- Main content -->
