@@ -1,0 +1,20 @@
+title: "Arjun Ganesan"
+description: "Personal Website"
+baseurl: "" # leave empty for user.github.io
+url: "https://arjun-ganesan.github.io"
+
+# Build settings
+theme: minima  # fallback theme (you can override with custom layouts)
+markdown: kramdown
+permalink: /:categories/:year/:month/:day/:title/
+
+# Navigation menu
+nav:
+  - name: "Home"
+    link: /
+  - name: "About"
+    link: /about
+  - name: "Projects"
+    link: /projects
+  - name: "Blog"
+    link: /blog
