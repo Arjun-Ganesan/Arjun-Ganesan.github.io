@@ -30,10 +30,16 @@
     }
 
     .sidebar img {
-      width: 100%;
-      border-radius: 50%;
+      width: 150px;        /* smaller size */
+      height: 150px;       /* equal height for a perfect circle */
+      object-fit: cover;   /* ensures the image covers the square without stretching */
+      border-radius: 50%;  /* makes it circular */
       margin-bottom: 1rem;
+      display: block;
+      margin-left: auto;
+      margin-right: auto;
     }
+
 
     .sidebar h2 {
       color: #1e40af; /* Blue for headings */
@@ -103,8 +109,8 @@
     <!-- Profile photo -->
     <img src="profile.jpg" alt="Your Name">
 
-    <h2>Your Name</h2>
-    <p>Developer / Researcher / Designer</p>
+    <h2>Arjun Ganesan</h2>
+    <p>Innovater / Researcher / Student</p>
 
     <span class="dark-toggle" onclick="toggleDarkMode()">🌙 Dark</span>
 
