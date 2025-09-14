@@ -30,11 +30,14 @@
     }
 
   .sidebar img {
-    border-radius: 50%;    /* makes it circular */
-    object-fit: cover;      /* ensures the circle is filled nicely */
-    display: block;
-    margin-bottom: 1rem;
-  }
+  border-radius: 15px;   /* adjust for how rounded you want the corners */
+  object-fit: cover;      /* ensures the image fills the box nicely */
+  display: block;
+  margin-bottom: 1rem;
+  width: 100%;           /* keeps it responsive in the sidebar */
+  height: auto;          /* preserves original aspect ratio */
+}
+
 
 
     .sidebar h2 {
