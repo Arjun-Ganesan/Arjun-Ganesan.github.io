@@ -26,3 +26,140 @@
     .sidebar {
       width: 250px;
       margin-right: 2rem;
+      flex-shrink: 0;
+    }
+
+    .sidebar img {
+      width: 100%;
+      border-radius: 50%;
+      margin-bottom: 1rem;
+    }
+
+    .sidebar h2 {
+      color: #1e40af; /* Blue for headings */
+      margin-bottom: 0.5rem;
+    }
+
+    .sidebar a {
+      display: block;
+      margin: 5px 0;
+      color: #1e40af;
+      text-decoration: none;
+    }
+
+    .sidebar a:hover {
+      text-decoration: underline;
+    }
+
+    /* Main content */
+    main {
+      flex: 1;
+    }
+
+    h1, h2, h3, h4, h5 {
+      color: #1e40af; /* Blue headings */
+    }
+
+    nav a { margin-right: 15px; }
+
+    /* Light & Dark Mode */
+    body.light {
+      background: #ffffff;
+      color: #111;
+    }
+
+    body.dark {
+      background: #0d1117;
+      color: #c9d1d9;
+    }
+
+    footer {
+      font-size: 0.9rem;
+      margin-top: 2rem;
+      text-align: center;
+    }
+
+    .dark-toggle {
+      cursor: pointer;
+      font-size: 0.9rem;
+      padding: 5px 10px;
+      border: 1px solid;
+      border-radius: 5px;
+      display: inline-block;
+      margin-bottom: 1rem;
+    }
+
+    /* Responsive */
+    @media (max-width: 768px) {
+      body { flex-direction: column; }
+      .sidebar { width: 100%; margin-bottom: 2rem; }
+    }
+  </style>
+</head>
+<body class="light">
+
+  <!-- Sidebar -->
+  <div class="sidebar">
+    <!-- Profile photo -->
+    <img src="profile.jpg" alt="Your Name">
+
+    <h2>Your Name</h2>
+    <p>Developer / Researcher / Designer</p>
+
+    <span class="dark-toggle" onclick="toggleDarkMode()">🌙 Dark</span>
+
+    <!-- Social Links -->
+    <h3>Connect</h3>
+    <a href="https://github.com/arjun-ganesan" target="_blank">GitHub</a>
+    <a href="https://linkedin.com/in/arjun-ganesan-b53b942ba/" target="_blank">LinkedIn</a>
+    <a href="mailto:arjunganesan.ar">Email</a>
+  </div>
+
+  <!-- Main content -->
+  <main>
+    <nav>
+      {% for item in site.nav %}
+        <a href="{{ site.baseurl }}{{ item.link }}">{{ item.name }}</a>
+      {% endfor %}
+    </nav>
+    <hr>
+    {{ content }}
+  </main>
+
+  <footer>
+    <hr>
+    <p>© {{ site.time | date: "%Y" }} {{ site.title }}</p>
+  </footer>
+
+  <!-- Syntax highlighting JS -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.9.0/highlight.min.js"></script>
+  <script>hljs.highlightAll();</script>
+
+  <!-- Dark Mode Toggle Script -->
+  <script>
+    const body = document.body;
+    const toggleBtn = document.querySelector('.dark-toggle');
+    const highlightTheme = document.getElementById('highlight-theme');
+
+    if (localStorage.getItem('mode') === 'dark') {
+      body.className = 'dark';
+      toggleBtn.textContent = '☀️ Light';
+      highlightTheme.href = "https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.9.0/styles/github-dark.min.css";
+    }
+
+    function toggleDarkMode() {
+      if (body.classList.contains('dark')) {
+        body.className = 'light';
+        toggleBtn.textContent = '🌙 Dark';
+        highlightTheme.href = "https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.9.0/styles/github.min.css";
+        localStorage.setItem('mode', 'light');
+      } else {
+        body.className = 'dark';
+        toggleBtn.textContent = '☀️ Light';
+        highlightTheme.href = "https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.9.0/styles/github-dark.min.css";
+        localStorage.setItem('mode', 'dark');
+      }
+    }
+  </script>
+</body>
+</html>
