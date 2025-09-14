@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>{{ page.title }} | {{ site.title }}</title>
+  <meta name="description" content="{{ site.description }}">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/milligram/1.4.1/milligram.min.css">
+  <style>
+    body { max-width: 800px; margin: 2rem auto; padding: 0 1rem; }
+    nav a { margin-right: 15px; }
+  </style>
+</head>
+<body>
+  <header>
+    <h1><a href="{{ site.baseurl }}/">{{ site.title }}</a></h1>
+    <nav>
+      {% for item in site.nav %}
+        <a href="{{ site.baseurl }}{{ item.link }}">{{ item.name }}</a>
+      {% endfor %}
+    </nav>
+    <hr>
+  </header>
+
+  <main>
+    {{ content }}
+  </main>
+
+  <footer>
+    <hr>
+    <p>© {{ site.time | date: "%Y" }} {{ site.title }}</p>
+  </footer>
+</body>
+</html>
