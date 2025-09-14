@@ -4,19 +4,59 @@
   <meta charset="UTF-8">
   <title>{{ page.title }} | {{ site.title }}</title>
   <meta name="description" content="{{ site.description }}">
+
+  <!-- Base CSS -->
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/milligram/1.4.1/milligram.min.css">
+
+  <!-- Syntax Highlighting -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.9.0/styles/github-dark.min.css" id="highlight-theme">
+
   <style>
-    body { max-width: 800px; margin: 2rem auto; padding: 0 1rem; }
+    body {
+      max-width: 800px;
+      margin: 2rem auto;
+      padding: 0 1rem;
+      transition: background 0.3s, color 0.3s;
+    }
+
     nav a { margin-right: 15px; }
+
+    /* Light Mode */
+    body.light {
+      background: #ffffff;
+      color: #111;
+    }
+
+    /* Dark Mode */
+    body.dark {
+      background: #0d1117;
+      color: #c9d1d9;
+    }
+
+    footer {
+      font-size: 0.9rem;
+      margin-top: 2rem;
+      text-align: center;
+    }
+
+    .dark-toggle {
+      float: right;
+      cursor: pointer;
+      font-size: 0.9rem;
+      padding: 5px 10px;
+      border: 1px solid;
+      border-radius: 5px;
+    }
   </style>
 </head>
-<body>
+<body class="light">
   <header>
     <h1><a href="{{ site.baseurl }}/">{{ site.title }}</a></h1>
     <nav>
       {% for item in site.nav %}
         <a href="{{ site.baseurl }}{{ item.link }}">{{ item.name }}</a>
       {% endfor %}
+      <span class="dark-toggle" onclick="toggleDarkMode()">🌙 Dark</span>
     </nav>
     <hr>
   </header>
@@ -29,5 +69,36 @@
     <hr>
     <p>© {{ site.time | date: "%Y" }} {{ site.title }}</p>
   </footer>
+
+  <!-- Syntax highlighting JS -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.9.0/highlight.min.js"></script>
+  <script>hljs.highlightAll();</script>
+
+  <!-- Dark Mode Toggle Script -->
+  <script>
+    const body = document.body;
+    const toggleBtn = document.querySelector('.dark-toggle');
+    const highlightTheme = document.getElementById('highlight-theme');
+
+    if (localStorage.getItem('mode') === 'dark') {
+      body.className = 'dark';
+      toggleBtn.textContent = '☀️ Light';
+      highlightTheme.href = "https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.9.0/styles/github-dark.min.css";
+    }
+
+    function toggleDarkMode() {
+      if (body.classList.contains('dark')) {
+        body.className = 'light';
+        toggleBtn.textContent = '🌙 Dark';
+        highlightTheme.href = "https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.9.0/styles/github.min.css";
+        localStorage.setItem('mode', 'light');
+      } else {
+        body.className = 'dark';
+        toggleBtn.textContent = '☀️ Light';
+        highlightTheme.href = "https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.9.0/styles/github-dark.min.css";
+        localStorage.setItem('mode', 'dark');
+      }
+    }
+  </script>
 </body>
 </html>
