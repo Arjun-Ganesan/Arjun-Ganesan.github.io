@@ -111,6 +111,25 @@
       text-indent: -1.2em;  /* align wrapped lines under text */
       padding-left: 1.2em;  /* keeps the bullet aligned properly */
           }
+    .about-container {
+      display: flex;
+      align-items: center;  /* vertically align image + text */
+      gap: 20px;            /* space between photo and text */
+      margin-top: 1rem;
+    }
+
+    .about-photo {
+      width: 180px;         /* control size */
+      height: auto;         
+      border-radius: 15px;  /* rounded corners */
+      object-fit: cover;    
+      flex-shrink: 0;       /* keeps image from shrinking */
+    }
+
+    .about-text {
+      flex: 1;              /* text takes remaining space */
+    }
+
 
 
     /* Responsive */
