@@ -6,10 +6,10 @@ permalink: /about/
 
 # About Me
 <div class="about-container">
-  <img src="{{Arjun-Ganesan.github.io}}/IMG_20250831_103122.jpg" alt="My Photo" width="150px" style="border-radius:15px;">
-  
   <div class="about-text">  
   Hello, I am Arjun Ganesan, a junior at Centreville High School in Clifton, Virginia. I am a student aspiring to pursue        biomedical or chemical and molecular engineering with a minor in computer science. 
+
+  <img src="{{Arjun-Ganesan.github.io}}/IMG_20250831_103122.jpg" alt="My Photo" width="150px" style="border-radius:15px;">
   </div>
 </div>
 
