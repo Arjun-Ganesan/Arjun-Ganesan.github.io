@@ -24,6 +24,9 @@ its position regardless of external forces as a response to stimuli. Thus, this 
 in the field of control theory and kinematics and consists of a multitude of enhancements regarding AI and deep
 learning, external sensors, and algorithmic interfaces to advance automated kinematics within technological society.
 * [**Research Paper**](https://drive.google.com/file/d/1lbgb_bUrX_y1Hv2qxktaDmDAMOQ-h5RR/view)
-* **Poster** <iframe src="/assets/ScienceFair23-24.pdf" width="800" height="480"></iframe>
+* **Poster**
+<div style="text-align: center; margin: 20px 0;">
+  <iframe src="/assets/ScienceFair23-24.pdf" width="800" height="480"></iframe>
+</div>
 - **Project 2** – Something cool you built.
 - **Project 3** – Another project.
