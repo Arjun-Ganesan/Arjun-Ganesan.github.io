@@ -16,14 +16,14 @@ Hello, I am Arjun Ganesan, a junior at Centreville High School in Clifton, Virgi
 * **Relevant Coursework:** AP Biology, AP Statistics, AP Precalculus BC, AP Computer Science A, AP World History: Modern, Latin 4 DE, AP Calculus BC, AP Language & Composition, AP US History, AP Chemistry, CS Data Structures AV, Exploring the Language of Medicine DE
 
 ## Extracurriculars & Leadership Positions
-* Science Olympiad: Vice Captain (5 Years)
-* FIRST Tech Challenge Robotics: Founder, Captain, & Software Lead (5 Years)
-* Science Bowl: Founder & Captain (2 Years)
-* Biology Team: President (2 Years)
-* NAQT Quizbowl: Captain (2 Years)
-* CyberPatriot: Historian & Windows/Server Lead (3 Years)
-* Computer Science Honor Society: Secretary (3 Years)
-* Varsity Tennis: Top 5 
+* **Science Olympiad:** Vice Captain (5 Years)
+* **FIRST Tech Challenge Robotics:** Founder, Captain, & Software Lead (5 Years)
+* **Science Bowl:** Founder & Captain (2 Years)
+* **Biology Team:** President (2 Years)
+* **NAQT Quizbowl:** Captain (2 Years)
+* **CyberPatriot:** Historian & Windows/Server Lead (3 Years)
+* **Computer Science Honor Society:** Secretary (3 Years)
+* **Varsity Tennis:** Top 5 
 
 ## Skills
 * **Programming Languages:** Java, C++,  Python,  LaTeX, Bash, HTML, CSS, & Mathematica
