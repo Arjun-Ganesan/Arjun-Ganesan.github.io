@@ -14,7 +14,7 @@ Hello, I am Arjun Ganesan, a junior at Centreville High School in Clifton, Virgi
 
 ## Extracurriculars & Leadership Positions
 * Science Olympiad: Vice Captain
-* FIRST Tech Challenge Robotics Team: Founder, Captain (3 Years), & Software Lead (5 Years)
+* FIRST Tech Challenge Robotics: Founder, Captain (3 Years), & Software Lead (5 Years)
 * Science Bowl: Founder & Captain (2 Years)
 * Biology Team: President (2 Years)
 * NAQT Quizbowl: Captain (2 Years)
