@@ -21,3 +21,10 @@ Hello, I am Arjun Ganesan, a junior at Centreville High School in Clifton, Virgi
 * CyberPatriot: Historian & Windows/Server Lead (3 Years)
 * Computer Science Honor Society: Secretary
 * Varsity Tennis: Top 5
+
+## Skills
+* **Programming Languages:** Java, C++,  Python,  LaTeX, Bash, HTML, CSS, & Mathematica
+* **Software Implementations:** PID, Feedforward, Odometry, Kinematic Pathing Algorithms, OpenCV Vision Pipeline, Dead-Wheel Localization, Guided Vector Trajectory Projection
+* **Engineering:** Mechanical Subsystem Engineering & Integration, CAD Modeling 🠂 OnShape & Fusion 360, Windows OS
+* **Biomedical Sciences:** Laboratory procedures, disease diagnosis, CBC w/ Differential, Gram Staining, Gel Electrophoresis, Visual Molecular Dynamic Simulations, Biochemical Construction & Editing, Protein-Ligand Docking, Protein-Folding, Computational Biochemistry
+* **Languages:** English, Latin, Tamil
