@@ -8,7 +8,8 @@ permalink: /about/
 
 Hello, I am Arjun Ganesan, a junior at Centreville High School in Clifton, Virginia. I am a student aspiring to pursue biomedical or chemical and molecular engineering with a minor in computer science. 
 
-<img src="IMG_20250831_103122.jpg" alt="Profile Photo" width="100px">
+<img src="{{Arjun-Ganesan.github.io}}/IMG_20250831_103122.jpg" alt="My Photo" width="150px" style="border-radius:15px;">
+
 
 ## Academic Profile
 * Centreville High School: August 2023 - June 2027
