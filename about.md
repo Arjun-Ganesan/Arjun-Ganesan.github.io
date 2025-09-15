@@ -10,8 +10,7 @@ permalink: /about/
   <div class="about-text">
     Hello, I am Arjun Ganesan, a junior at Centreville High School in Clifton, Virginia. I am a student aspiring to pursue        biomedical or chemical and molecular engineering with a minor in computer science. 
 
- </div>
-</div>
+
 
 ## Academic Profile
 * Centreville High School: August 2023 - June 2027
@@ -33,3 +32,6 @@ permalink: /about/
 * **Engineering:** Mechanical Subsystem Engineering & Integration, CAD Modeling 🠂 OnShape & Fusion 360, Windows OS
 * **Biomedical Sciences:** Laboratory procedures, Disease Diagnosis, CBC w/ Differential, Gram Staining, Gel Electrophoresis, Visual Molecular Dynamic Simulations, Biochemical Construction & Editing, Protein-Ligand Docking, Protein-Folding, Computational Biochemistry
 * **Languages:** English, Latin, Tamil
+
+ </div>
+</div>
