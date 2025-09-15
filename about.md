@@ -6,9 +6,4 @@ permalink: /about/
 
 # About Me
 
-Write a short bio here.  
-Things you can include:
-- What you do
-- Your skills
-- Your interests
-- A professional photo
+Hello, I am Arjun Ganesan, a junior at Centreville High School in Clifton, Virginia. I am a student aspiring to pursue biomedical or chemical and molecular engineering with a minor in computer science. 
