@@ -21,11 +21,11 @@ permalink: /about/
 * **Science Olympiad:** Vice Captain (5 Years)
 * **FIRST Tech Challenge Robotics:** Founder, Captain, & Software Lead (5 Years)
 * **Science Bowl:** Founder & Captain (2 Years)
-* **Biology Team:** President (2 Years)
-* **NAQT Quizbowl:** Captain (2 Years)
+* **Biology Team:** President (3 Years)
+* **NAQT Quizbowl:** Captain (3 Years)
 * **CyberPatriot:** Historian & Windows/Server Lead (3 Years)
 * **Computer Science Honor Society:** Secretary (3 Years)
-* **Varsity Tennis:** Top 5 
+* **Varsity Tennis:** Top 5 (3 Years)
 
 ### Skills
 * **Programming Languages:** Java, C++,  Python,  LaTeX, Bash, HTML, CSS, & Mathematica
