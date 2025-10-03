@@ -9,6 +9,7 @@ permalink: /research/
 #### De Novo Design & Engineering of a Revolutionary, Universal Beta-D-Glucose Binding Protein
 * Date: March 2025 - Present
 * _Research Under the ASSIP GMU Program in Computational Biochemistry_
+* [Publication]([url](https://journals.gmu.edu/jssr/article/view/5300))
 * **ASSIP Poster**
 <div style="text-align: center; margin: 20px 0;">
   <iframe src="/assets/Solomon_Arjun_Ganesan_2025ASSIP_Poster.pdf" width="800" height="480"></iframe>
