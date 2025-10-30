@@ -15,7 +15,7 @@ permalink: /about/
 
 ### Academic Profile
 * Centreville High School: August 2023 - June 2027
-* **Relevant Coursework:** AP Biology, AP Statistics, AP Precalculus BC, AP Computer Science A, AP World History: Modern, Latin 4 DE, AP Calculus BC, AP Language & Composition, AP US History, AP Chemistry, CS Data Structures AV, Exploring the Language of Medicine DE
+* **Relevant Coursework:** AP Biology, AP Chemistry, AP Calculus BC, AP Statistics, CS Data Structures AV, AP Computer Science A, AP Precalculus BC, AP United States History AP World History: Modern, AP English Language & Composition, Latin 4 DE, Exploring the Language of Medicine DE
 
 ### Extracurriculars & Leadership Positions
 * **Science Olympiad:** Vice Captain (5 Years)
